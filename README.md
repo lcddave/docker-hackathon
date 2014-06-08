@@ -28,3 +28,13 @@ the first time**). My fork is [here](https://github.com/kiyoto/docker-registry-d
 The data is in `data/updates_repo_names.json` and `data/tree_image_ids.json`. The script is to "invert"
 the response of Docker API since we want to know which image id has the most children images.
 
+## Step 3: Webapp for the genealogy
+
+[Here](http://dockerology.herokuapp.com) is a minimal webapp that lets you traverse the image id tree.
+
+Some interesting data (as of 6/8/2014)
+
+* 13,475 repos found
+* 101,477 image ids found
+* 792 "root" image ids
+
