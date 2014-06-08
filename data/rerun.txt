@@ -79,6 +79,7 @@ bjowi/centos6
 blalor/docker-sync
 boffbowsh/griddle
 bosse/postgresql
+bowery/nam-web
 bprodoehl/mariadb55
 bradrydzewski/couchdb
 bradrydzewski/dart
@@ -262,6 +263,7 @@ fgrehm/helabs-rails-4.0
 fgrehm/vagrant-ubuntu
 fgrehm/vagrant-ubuntu-dind
 filippovitale/clojure-repl
+fitbur/test
 fixate/elasticsearch
 fixate/postgres
 fixate/redis-server
@@ -429,6 +431,7 @@ justinclayton/ubuntu1304-rbenv-ruby
 jwalgran/nodejs
 jyidiego/service_discovery
 kameshsampath/liferay
+kaorimatz/erlang
 kaspernielsen/mc
 kaysoft/ubuntu-14.04
 keeb/test
@@ -465,6 +468,7 @@ lijin/spark-app-wordcount
 linuxmonk/wheezy-web
 linuxngnr/centos-6.4
 lmars/ffmpeg
+lomereiter/centos5-ldc2-minimal
 lorenzo/cloud
 losinggeneration/arch
 loyalty/centos-nginx
@@ -515,6 +519,7 @@ mgaffney/java
 mhat/docker-rails
 micgo/apache2
 micgo/elasticsearch
+michaelsauter/test
 michaloo/nginx
 michaloo/php-fpm
 mikespokefire/drone-ruby
@@ -543,6 +548,7 @@ mojodna/heroku-cedar
 momer/cassandra-oracle-java
 momer/docker-solr-nutch
 momer/maestro-base-oracle-jdk
+morz/baseimage
 mose/faria-appruby
 mostafazh/running-mysql
 motech/activemq
@@ -577,6 +583,7 @@ newsdev/streamtools
 newsdev/varnish
 nicescale/mysql
 nicolasjorand/mongodb
+nikhilv/docker-jetty
 nikicat/ubuntu
 nisaacson/nodejs
 nitrousio/ubuntu-dind
@@ -585,6 +592,7 @@ niwashun/centos
 njoyce/ubuntu
 noisyboiler/ubuntu
 noonien/openwrt-buildroot
+nours/crawler
 noverloop/kafka-0.8-single
 ntadepalli/linuxworker
 ntadepalli/redhat62
@@ -720,6 +728,9 @@ sbisbee/couchdb
 schimmy/mongodb
 scholzj/qpidd
 schu/ubuntu
+schvin/dockerana
+schvin/elasticsearch
+schvin/graphite
 scoir/node
 scraperwiki/base
 scraperwiki/python
@@ -747,6 +758,7 @@ shippabletest/episode58
 shippabletest/episode59
 shipyard/stack-base-ubuntu
 shipyard/stack-lang
+shogo/httpd
 showooo/amazon-linux
 shutej/diaspora
 shykes/superepo
@@ -800,6 +812,7 @@ svend/debian
 sw1nn/kafka
 swcc/chef
 syasuhisa/centos6
+syunya/httpd
 talz/talz
 tauho/datomic-free
 tavisrudd/evarga_jenkins-slave
@@ -850,6 +863,7 @@ ubergarm/skyservices
 ubreu/ubuntu
 ubuntufan/ping
 ucddlc/nginx_rails_base
+unfairbanks/dockernotebook
 uninett/wheezy
 upcnet/base
 upcnet/envs
