@@ -10,12 +10,12 @@ then
 fi
 
 
-image_id=`$SCRIPT info $1 | grep '^    latest' -m 1 | awk '{ print $2}'`
-
+image_id=`$SCRIPT info $1 | egrep '^    [^ ]+    [a-f0-9]+' -m 1 | awk '{print $2}'`
 if [ "$image_id" == "" ]
 then
-  echo "does not exit."
+  echo "$1 does not exist."
   exit
 fi
 
-$SCRIPT layerinfo $1 $image_id 
+json=`$SCRIPT layerinfo $1 $image_id` 
+echo "$1    $json"
