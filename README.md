@@ -24,4 +24,7 @@ me to [this nifty tool](https://github.com/samalba/docker-registry-debug/) to pu
 Actually, I ended up modifying the original (along the way, **learning to read and write some Go for
 the first time**). My fork is [here](https://github.com/kiyoto/docker-registry-debug/commit/f20d6d1161eb98ad1d79869690e1dd34203bae41).
 
+6/8/2014 1145h: Done collecting the data. There are 13,475 repositories with 11,251 distinct image ids
+The data is in `data/updates_repo_names.json` and `data/tree_image_ids.json`. The script is to "invert"
+the response of Docker API since we want to know which image id has the most children images.
 
